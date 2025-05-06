@@ -1,5 +1,4 @@
-const User = require('../schema'); // Adjust path as needed
-
+const User = require('../../model/schema'); // Adjust path as needed
 // Create a new user
 const createUser = async (req, res) => {
     try {
